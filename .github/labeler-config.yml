@@ -1,5 +1,5 @@
 filters:
-  - label: ⚙️ feat
+  - label: ⚙ feat
     regexs:
       - /feat/i
     events: [issues, pull_request]
@@ -9,7 +9,7 @@ filters:
       - /fix/i
     events: [issues, pull_request]
     targets: [title]
-  - label: 🔨 refactor
+  - label: 💻 refactor
     regexs:
       - /refactor/i
     events: [issues, pull_request]
